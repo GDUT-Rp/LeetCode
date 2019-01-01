@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56b7fd8-ba4c-4a63-9492-bc2345e33cd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_Scala/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_Python/Leetcode14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +13,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LeetCode$LeetCode20.coverage" NAME="LeetCode20 Coverage Results" MODIFIED="1546343766178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode_Python" />
+    <SUITE FILE_PATH="coverage/LeetCode$Leetcode14.coverage" NAME="Leetcode14 Coverage Results" MODIFIED="1546344751642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode_Python" />
+    <SUITE FILE_PATH="coverage/LeetCode$LeetCode20.coverage" NAME="LeetCode20 Coverage Results" MODIFIED="1546344373459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode_Python" />
     <SUITE FILE_PATH="coverage/LeetCode$3__Longest_Substring_Without_Repeating_Characters.coverage" NAME="3. Longest Substring Without Repeating Characters Coverage Results" MODIFIED="1546342936564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode_Python" />
   </component>
   <component name="FavoritesManager">
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode20.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode20.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode20.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="8" selection-start-line="8" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leetcode14.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode_Python/Leetcode14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -58,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/LeetCode_Python/3. Longest Substring Without Repeating Characters.py" />
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode20.py" />
+        <option value="$PROJECT_DIR$/LeetCode_Python/Leetcode14.py" />
       </list>
     </option>
   </component>
@@ -121,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LeetCode20">
+  <component name="RunManager" selected="Python.Leetcode14">
     <configuration name="3. Longest Substring Without Repeating Characters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,12 +170,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Leetcode14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode_Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Github\LeetCode\LeetCode_Python\LeetCode14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.3. Longest Substring Without Repeating Characters" />
       <item itemvalue="Python.LeetCode20" />
+      <item itemvalue="Python.Leetcode14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Leetcode14" />
         <item itemvalue="Python.LeetCode20" />
         <item itemvalue="Python.3. Longest Substring Without Repeating Characters" />
       </list>
@@ -182,6 +213,14 @@
       <option name="presentableId" value="Default" />
       <updated>1546261526941</updated>
     </task>
+    <task id="LOCAL-00001" summary="Python版实现">
+      <created>1546343888046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546343888046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -218,6 +257,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Python版实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python版实现" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/3. Longest Substring Without Repeating Characters.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -235,8 +278,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode20.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="8" selection-start-line="8" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="285">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_Python/Leetcode14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
