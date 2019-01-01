@@ -4,45 +4,18 @@
 #include <string>
 #include <set>
 
+#include "LeetCode3.h"
 
 using namespace std;
 
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-        int ans = 0, i = 0, j = 0;
-        set<char> charset;
-        int length = s.length();
-        while (i < length && j < length){
-            if (!charset.count(s[j])){
-                charset.insert(s[j++]);
-                ans = max(ans, j - i);
-            } else{
-                charset.erase(s[i++]);
-            }
-        }
-        return ans;
-    }
-
-public:
-    int improveByVector(string s){
-        int length = s.length();
-        int ans = 0, i = 0, j = 0;
-        vector<int> index(128);
-        for (; j < length ; j++) {
-            i = max(index[s[j]], i);
-            ans = max(ans, j - i + 1);
-            index[s[j]] = j + 1;
-        }
-        return ans;
-    }
-};
-
-
-int main() {
+void LeetCode3(){
     string s = "abcabcbb";
     Solution solution;
     cout << solution.lengthOfLongestSubstring(s) << endl;
     cout << solution.improveByVector(s) << endl;
+}
+
+int main() {
+    cout << "HelloWorld!" << endl;
     return 0;
 }
