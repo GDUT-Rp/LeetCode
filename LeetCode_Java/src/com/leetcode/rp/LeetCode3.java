@@ -11,7 +11,7 @@ import java.util.Set;
  *@Data:2019/1/1_16:22
  */
 
-class Solution {
+class SolutionLeetCode3 {
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
         Set<Character> set = new HashSet<>();
@@ -43,7 +43,7 @@ class Solution {
 public class LeetCode3 {
     public static void main(String[] args) {
         String s = "abcabcbb";
-        Solution solution = new Solution();
+        SolutionLeetCode3 solution = new SolutionLeetCode3();
         System.out.println(solution.lengthOfLongestSubstring(s));
         System.out.println(solution.improveByHashMap(s));
     }
