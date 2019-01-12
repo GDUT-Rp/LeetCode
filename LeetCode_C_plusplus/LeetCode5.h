@@ -27,7 +27,7 @@ public:
                 end = i + len / 2;
             }
         }
-        return s.substr(start, end - start + 1);        //  有错
+        return s.substr(start, end - start + 1);
     }
     int expandAround(string s, int left, int right) {
         while (left >= 0 && right < s.length() && s[left] == s[right]) {
