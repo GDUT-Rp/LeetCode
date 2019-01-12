@@ -5,6 +5,7 @@
 #include <set>
 
 #include "LeetCode3.h"
+#include "LeetCode5.h"
 #include "LeetCode7.h"
 
 using namespace std;
@@ -14,6 +15,15 @@ void LeetCode3(){
     Solution_LeetCode3 solution;
     cout << solution.lengthOfLongestSubstring(s) << endl;
     cout << solution.improveByVector(s) << endl;
+}
+
+void LeetCode5() {
+    string list[] = {"babad", "bb", "ccd", "leeteed"};
+    Solution_LeetCode5 solution_leetCode5;
+    for (string str: list) {
+        cout << str << endl;
+        cout << solution_leetCode5.longestPalindrome(str) << endl;
+    }
 }
 
 void LeetCode7(){
@@ -26,5 +36,6 @@ void LeetCode7(){
 
 int main() {
     cout << "HelloWorld!" << endl;
+    LeetCode5();
     return 0;
 }
