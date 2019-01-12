@@ -14,7 +14,7 @@
 using namespace std;
 
 
-class Solution {
+class Solution_LeetCode3 {
 public:
     int lengthOfLongestSubstring(string s) {
         int ans = 0, i = 0, j = 0;
