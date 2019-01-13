@@ -2,7 +2,7 @@ package com.rp.leetcode
 
 import scala.util.control.Breaks._
 
-class LeetCode3 {
+object LeetCode3 {
   def lengthOfLongestSubstring(s: String): Int =
     s.zipWithIndex.foldLeft((0, -1, Map[Char, Int]())) { case ((len, start_pos, map), (char, i)) =>
       val last_pos = map.getOrElse(char, -1)
