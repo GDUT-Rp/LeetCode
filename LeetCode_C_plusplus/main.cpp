@@ -7,6 +7,7 @@
 #include "LeetCode3.h"
 #include "LeetCode5.h"
 #include "LeetCode7.h"
+#include "LeetCode9.h"
 
 using namespace std;
 
@@ -34,8 +35,18 @@ void LeetCode7(){
     }
 }
 
+void LeetCode9(){
+    int x[] = {121, -121, 10, 989, 999};
+    Solution_LeetCode9 solution_leetCode9;
+    for (int i: x) {
+        cout << i << endl;
+        cout << solution_leetCode9.isPalindrome(i) << endl;
+        cout << solution_leetCode9.faster(i) << endl;
+    }
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode5();
+    LeetCode9();
     return 0;
 }
