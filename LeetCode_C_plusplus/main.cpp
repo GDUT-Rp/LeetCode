@@ -47,6 +47,5 @@ void LeetCode9(){
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode9();
     return 0;
 }
