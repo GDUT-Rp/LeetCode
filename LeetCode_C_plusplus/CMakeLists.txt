@@ -3,4 +3,4 @@ project(LeetCode_C_plusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(LeetCode_C_plusplus main.cpp LeetCode3.h LeetCode7.h LeetCode5.h LeetCode9.h)
+add_executable(LeetCode_C_plusplus main.cpp LeetCode3.h LeetCode7.h LeetCode5.h LeetCode9.h LeetCode27.h)

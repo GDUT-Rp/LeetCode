@@ -8,10 +8,11 @@
 #include "LeetCode5.h"
 #include "LeetCode7.h"
 #include "LeetCode9.h"
+#include "LeetCode27.h"
 
 using namespace std;
 
-void LeetCode3(){
+void LeetCode3() {
     string s = "abcabcbb";
     Solution_LeetCode3 solution;
     cout << solution.lengthOfLongestSubstring(s) << endl;
@@ -27,7 +28,7 @@ void LeetCode5() {
     }
 }
 
-void LeetCode7(){
+void LeetCode7() {
     int x[6] = {123, -123, 120, 21, 1534236469, -2147483648};
     Solution_LeetCode7 solution_leetCode7;
     for (int i : x) {
@@ -35,7 +36,7 @@ void LeetCode7(){
     }
 }
 
-void LeetCode9(){
+void LeetCode9() {
     int x[] = {121, -121, 10, 989, 999};
     Solution_LeetCode9 solution_leetCode9;
     for (int i: x) {
@@ -45,7 +46,16 @@ void LeetCode9(){
     }
 }
 
+void LeetCode27() {
+    vector<int> nums1 = {1, 2, 2, 3, 2, 4, 6, 6, 5, 5, 2, 2, 2, 2};
+    vector<int> nums2 = {1, 2, 2, 3, 2, 4, 6, 6, 5, 5, 2, 2, 2, 2};
+    Solution_LeetCode27 solution_leetCode27;
+    cout << solution_leetCode27.removeElement(nums1, 2) << endl;
+    cout << solution_leetCode27.removeElementBySwap(nums2, 2) << endl;
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
+    LeetCode27();
     return 0;
 }
