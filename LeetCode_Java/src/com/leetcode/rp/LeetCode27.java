@@ -18,9 +18,9 @@ class SolutionOfLeetCode27 {
         while(i < n){
             if (nums[i] == val){
                 nums[i] = nums[n-1];
-                n--;
+                n--;    // reduce array size by one and check the place of i again
             }else{
-                i++;
+                i++;    //  check succesfully and continune
             }
         }
         return i;
