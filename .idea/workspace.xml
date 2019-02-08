@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56b7fd8-ba4c-4a63-9492-bc2345e33cd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode18.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode_Python/LeetCode18.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode18.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,8 +69,8 @@
       <file leaf-file-name="LeetCode18.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode18.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+            <state relative-caret-position="581">
+              <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -353,26 +353,34 @@
       <option name="project" value="LOCAL" />
       <updated>1549615434122</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Python版实现">
+      <created>1549617642372</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1549617642372</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="454" y="0" width="1036" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" visible="true" weight="0.27817404" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010225" side_tool="true" visible="true" weight="0.28138527" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952926" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.27817404" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989775" visible="true" weight="0.28138527" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.486166" visible="true" weight="0.15616623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48594376" visible="true" weight="0.23824131" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.513834" side_tool="true" visible="true" weight="0.15616623" />
+      <window_info id="Favorites" order="2" sideWeight="0.5140562" side_tool="true" visible="true" weight="0.23824131" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -732,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode18.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        <state relative-caret-position="581">
+          <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
         </state>
       </provider>
     </entry>

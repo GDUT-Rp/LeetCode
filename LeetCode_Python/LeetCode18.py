@@ -78,7 +78,7 @@ class Solution:
         """
         res = []
         nums.sort()
-        #这种求和为了减少步骤首先是排序比较  哎哎哎
+        #这种求和为了减少步骤首先是排序比较
         a = nums[:4]
         if sum(nums[:4]) > target:
             return res
