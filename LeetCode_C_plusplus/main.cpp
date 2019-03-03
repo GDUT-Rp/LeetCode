@@ -5,6 +5,7 @@
 #include <set>
 
 #include "LeetCode3.h"
+#include "LeetCode4.h"
 #include "LeetCode5.h"
 #include "LeetCode7.h"
 #include "LeetCode9.h"
@@ -17,6 +18,13 @@ void LeetCode3() {
     Solution_LeetCode3 solution;
     cout << solution.lengthOfLongestSubstring(s) << endl;
     cout << solution.improveByVector(s) << endl;
+}
+
+void LeetCode4() {
+    vector<int> nums1 = {1, 2};
+    vector<int> nums2 = {3, 4};
+    Solution_LeetCode4 solution_leetCode4;
+    cout << solution_leetCode4.findMedianSortedArrays(nums1, nums2) << endl;
 }
 
 void LeetCode5() {
@@ -56,6 +64,6 @@ void LeetCode27() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode27();
+    LeetCode4();
     return 0;
 }
