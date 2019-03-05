@@ -10,6 +10,7 @@
 #include "LeetCode7.h"
 #include "LeetCode9.h"
 #include "LeetCode27.h"
+#include "LeetCode29.h"
 
 using namespace std;
 
@@ -62,8 +63,17 @@ void LeetCode27() {
     cout << solution_leetCode27.removeElementBySwap(nums2, 2) << endl;
 }
 
+void LeetCode29() {
+    vector<int> nums1 = {10, 7, -2147483648};
+    vector<int> nums2 = {3, -3, 1};
+    Solution_LeetCode29 solution_leetCode29;
+    for (int i = 0; i < nums1.size(); ++i) {
+        cout << solution_leetCode29.divide(nums1[i], nums2[i])<<endl;
+    }
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode4();
+    LeetCode29();
     return 0;
 }
