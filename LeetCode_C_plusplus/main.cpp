@@ -11,6 +11,7 @@
 #include "LeetCode9.h"
 #include "LeetCode27.h"
 #include "LeetCode29.h"
+#include "LeetCode33.h"
 
 using namespace std;
 
@@ -68,12 +69,19 @@ void LeetCode29() {
     vector<int> nums2 = {3, -3, 1};
     Solution_LeetCode29 solution_leetCode29;
     for (int i = 0; i < nums1.size(); ++i) {
-        cout << solution_leetCode29.divide(nums1[i], nums2[i])<<endl;
+        cout << solution_leetCode29.divide(nums1[i], nums2[i]) << endl;
     }
+}
+
+void LeetCode33() {
+    vector<int> nums = {4, 5, 6, 7, 0, 1, 2};
+    int target = 0;
+    Solution_LeetCode33 solution_leetCode33;
+    cout << solution_leetCode33.search(nums, target) << endl;
 }
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode29();
+    LeetCode33();
     return 0;
 }
