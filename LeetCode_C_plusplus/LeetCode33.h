@@ -17,7 +17,7 @@ public:
     int search(vector<int> &nums, int target) {
         int left = 0, right = nums.size() - 1, mid;
         while (left <= right) {
-            mid = (left + right) >> 2;
+            mid = (left + right) >> 1;
             if (nums[mid] == target)    return mid;
             if (nums[left] <= nums[mid]){
                 if (nums[left] <= target and target < nums[mid])    //  判断是否在左边的连续有序空间
