@@ -10,7 +10,7 @@
 class Solution_LeetCode70 {
 public:
     int climbStairs(int n) {
-        int *nums = new int[n + 1];
+        int nums[888888];
         nums[0] = 0;
         nums[1] = 1;
         nums[2] = 2;

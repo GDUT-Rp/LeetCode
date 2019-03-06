@@ -13,6 +13,7 @@
 #include "LeetCode29.h"
 #include "LeetCode33.h"
 #include "LeetCode34.h"
+#include "LeetCode35.h"
 
 using namespace std;
 
@@ -81,20 +82,29 @@ void LeetCode33() {
     cout << solution_leetCode33.search(nums, target) << endl;
 }
 
-void LeetCode34(){
+void LeetCode34() {
     vector<int> nums = {5, 7, 7, 8, 8, 10};
     int target = 6;
     nums = {2, 2};
     target = 3;
     Solution_LeetCode34 solution_leetCode34;
-    nums = solution_leetCode34.searchRange_test(nums, target);
+    nums = solution_leetCode34.searchRange(nums, target);
     for (int i = 0; i < nums.size(); ++i) {
         cout << nums[i] << endl;
     }
 }
 
+void LeetCode35() {
+    vector<int> nums = {1, 3, 5, 6};
+    int target = 0;
+    nums = {1, 3};
+    target = 2;
+    Solution_LeetCode35 solution_leetCode35;
+    cout << solution_leetCode35.searchInsert(nums, target) << endl;
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode34();
+    LeetCode35();
     return 0;
 }
