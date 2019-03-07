@@ -16,6 +16,7 @@
 #include "LeetCode35.h"
 #include "LeetCode50.h"
 #include "LeetCode69.h"
+#include "LeetCode74.h"
 
 using namespace std;
 
@@ -122,8 +123,24 @@ void LeetCode69() {
     }
 }
 
+void LeetCode74() {
+    vector<vector<int>> matrix = {{1,  3,  5,  7},
+                                  {10, 11, 16, 20},
+                                  {23, 30, 34, 50}};
+    Solution_LeetCode74 solution_leetCode74;
+    int target = 3;
+    matrix = {{-8, -7, -5, -3, -3, -1, 1},
+              {2,  2,  2,  3,  3,  5,  7},
+              {8,  9,  11, 11, 13, 15, 17},
+              {18, 18, 18, 20, 20, 20, 21},
+              {23, 24, 26, 26, 26, 27, 27},
+              {28, 29, 29, 30, 32, 32, 34}};
+    target = -5;
+    cout << solution_leetCode74.searchMatrix(matrix, target) << endl;
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode69();
+    LeetCode74();
     return 0;
 }
