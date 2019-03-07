@@ -14,6 +14,8 @@
 #include "LeetCode33.h"
 #include "LeetCode34.h"
 #include "LeetCode35.h"
+#include "LeetCode50.h"
+#include "LeetCode69.h"
 
 using namespace std;
 
@@ -103,8 +105,25 @@ void LeetCode35() {
     cout << solution_leetCode35.searchInsert(nums, target) << endl;
 }
 
+void LeetCode50() {
+    double x[10] = {2, 2.1, 2};
+    int n[10] = {10, 3, -2};
+    Solution_LeetCode50 solution_leetCode50;
+    for (int i = 0; i < 3; ++i) {
+        cout << solution_leetCode50.myPow(x[i], n[i]) << endl;
+    }
+}
+
+void LeetCode69() {
+    int x[10] = {4, 8};
+    Solution_LeetCode69 solution_leetCode69;
+    for (int i = 0; i < 2; ++i) {
+        cout << solution_leetCode69.mySqrt_newton(x[i]) << endl;
+    }
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode35();
+    LeetCode69();
     return 0;
 }
