@@ -17,6 +17,7 @@
 #include "LeetCode50.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
+#include "LeetCode81.h"
 
 using namespace std;
 
@@ -139,8 +140,19 @@ void LeetCode74() {
     cout << solution_leetCode74.searchMatrix(matrix, target) << endl;
 }
 
+void LeetCode81() {
+    vector<int> nums = {2, 5, 6, 0, 0, 1, 2};
+    int target = 2;
+//    nums = {1, 1, 3, 1};
+//    nums = {3, 1, 1};
+//    nums = {1, 1};
+//    nums = {2,2,2,0,2,2};
+    Solution_LeetCode81 solution_leetCode81;
+    cout << solution_leetCode81.search(nums, target) << endl;
+}
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode74();
+    LeetCode81();
     return 0;
 }
