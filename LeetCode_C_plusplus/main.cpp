@@ -11,6 +11,7 @@
 #include "LeetCode9.h"
 #include "LeetCode16.h"
 #include "LeetCode19.h"
+#include "LeetCode26.h"
 #include "LeetCode27.h"
 #include "LeetCode29.h"
 #include "LeetCode33.h"
@@ -75,7 +76,15 @@ void LeetCode16() {
 
 void LeetCode19() {
     Solution_LeetCode19 solution_leetCode19;
+}
 
+void LeetCode26() {
+    Solution_LeetCode26 solution_leetCode26;
+    vector<vector<int>> nums = {{1, 1, 2},
+                                {0, 0, 1, 1, 1, 2, 2, 3, 3, 4}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode26.faster(nums[i]) << endl;
+    }
 }
 
 void LeetCode27() {
@@ -169,6 +178,6 @@ void LeetCode81() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode19();
+    LeetCode26();
     return 0;
 }
