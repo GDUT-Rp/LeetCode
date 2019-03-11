@@ -13,6 +13,7 @@
 #include "LeetCode19.h"
 #include "LeetCode26.h"
 #include "LeetCode27.h"
+#include "LeetCode28.h"
 #include "LeetCode29.h"
 #include "LeetCode33.h"
 #include "LeetCode34.h"
@@ -93,6 +94,14 @@ void LeetCode27() {
     Solution_LeetCode27 solution_leetCode27;
     cout << solution_leetCode27.removeElement(nums1, 2) << endl;
     cout << solution_leetCode27.removeElementBySwap(nums2, 2) << endl;
+}
+
+void LeetCode28() {
+    Solution_LeetCode28 solution_leetCode28;
+    vector<string> haystack = {"hello", "aaaaa"};
+    vector<string> needle = {"ll", "bba"};
+    for (int i = 0; i < haystack.size(); ++i)
+        cout << solution_leetCode28.strStr(haystack[i], needle[i]) << endl;
 }
 
 void LeetCode29() {
