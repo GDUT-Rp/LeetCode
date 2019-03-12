@@ -9,6 +9,7 @@
 #include "LeetCode5.h"
 #include "LeetCode7.h"
 #include "LeetCode9.h"
+#include "LeetCode10.h"
 #include "LeetCode16.h"
 #include "LeetCode19.h"
 #include "LeetCode26.h"
@@ -21,7 +22,10 @@
 #include "LeetCode50.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
+#include "LeetCode78.h"
 #include "LeetCode81.h"
+#include "LeetCode100.h"
+
 
 using namespace std;
 
@@ -63,6 +67,15 @@ void LeetCode9() {
         cout << i << endl;
         cout << solution_leetCode9.isPalindrome(i) << endl;
         cout << solution_leetCode9.faster(i) << endl;
+    }
+}
+
+void LeetCode10() {
+    Solution_LeetCode10 solution_leetCode10;
+    vector<string> s = {"aa", "aa", "ab", "aab", "mississippi"};
+    vector<string> p = {"a", "a*", ".*", "c*a*b", "mis*is*p*."};
+    for (int i = 0; i < s.size(); ++i) {
+        cout << s[i] << endl << p[i] << endl << solution_leetCode10.isMatch(s[i], p[i]) << endl;
     }
 }
 
@@ -174,6 +187,21 @@ void LeetCode74() {
     cout << solution_leetCode74.searchMatrix(matrix, target) << endl;
 }
 
+void LeetCode78() {
+    Solution_LeetCode78 solution_leetCode78;
+    vector<vector<int>> nums = {{1, 2, 3}};
+    vector<vector<int>> result;
+    for (int i = 0; i < nums.size(); ++i) {
+        result = solution_leetCode78.subsets(nums[i]);
+        for (int j = 0; j < result.size(); ++j) {
+            for (int k = 0; k < result[j].size(); ++k) {
+                cout << result[j][k] << " ";
+            }
+            cout << endl;
+        }
+    }
+}
+
 void LeetCode81() {
     vector<int> nums = {2, 5, 6, 0, 0, 1, 2};
     int target = 2;
@@ -185,8 +213,13 @@ void LeetCode81() {
     cout << solution_leetCode81.search(nums, target) << endl;
 }
 
+void LeetCode100() {
+    Solution_LeetCode100 solution_leetCode100;
+}
+
+
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode26();
+    LeetCode10();
     return 0;
 }
