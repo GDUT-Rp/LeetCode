@@ -20,6 +20,7 @@
 #include "LeetCode34.h"
 #include "LeetCode35.h"
 #include "LeetCode50.h"
+#include "LeetCode53.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
 #include "LeetCode78.h"
@@ -163,6 +164,12 @@ void LeetCode50() {
     }
 }
 
+void LeetCode53() {
+    vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    Solution_LeetCode53 solution_leetCode53;
+    cout << solution_leetCode53.maxSubArray(nums) << endl;
+}
+
 void LeetCode69() {
     int x[10] = {4, 8};
     Solution_LeetCode69 solution_leetCode69;
@@ -220,6 +227,6 @@ void LeetCode100() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode10();
+    LeetCode53();
     return 0;
 }
