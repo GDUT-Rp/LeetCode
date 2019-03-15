@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -15,6 +16,13 @@ public:
     int maxSubArray(vector<int> &nums) {
         int len = nums.size();
         if (len == 0) return 0;
+        int ans = nums[0];
+        int last = nums[0];
+        for (int i = 1; i < len; ++i) {
+            last = max(0, last) + nums[i];
+            ans = max(ans, last);
+        }
+        return ans;
     }
 };
 
