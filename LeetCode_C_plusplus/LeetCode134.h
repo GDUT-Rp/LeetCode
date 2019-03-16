@@ -12,6 +12,7 @@ using namespace std;
 
 class Solution_LeetCode134 {
 public:
+    //  通过
     int myself(vector<int> &gas, vector<int> &cost) {
         if (gas.empty() or cost.empty()) return 0;
         vector<int> nums = {};      //  数组相减
