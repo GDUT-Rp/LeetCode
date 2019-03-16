@@ -27,6 +27,7 @@
 #include "LeetCode81.h"
 #include "LeetCode100.h"
 #include "LeetCode122.h"
+#include "LeetCode134.h"
 
 
 using namespace std;
@@ -235,9 +236,24 @@ void LeetCode122() {
     }
 }
 
+void LeetCode134() {
+    Solution_LeetCode134 solution_leetCode134;
+    vector<vector<int>> gas = {{1, 2, 3, 4, 5},
+                               {2, 3, 4},
+                               {4},
+                               {5, 1, 2, 3, 4}};
+    vector<vector<int>> cost = {{3, 4, 5, 1, 2},
+                                {3, 4, 3},
+                                {5},
+                                {4, 4, 1, 5, 1}};
+    for (int i = 0; i < gas.size(); ++i) {
+        cout << solution_leetCode134.canCompleteCircuit(gas[i], cost[i]) << endl;
+    }
+}
+
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode122();
+    LeetCode134();
     return 0;
 }
