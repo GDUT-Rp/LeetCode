@@ -26,6 +26,7 @@
 #include "LeetCode78.h"
 #include "LeetCode81.h"
 #include "LeetCode100.h"
+#include "LeetCode122.h"
 
 
 using namespace std;
@@ -224,9 +225,19 @@ void LeetCode100() {
     Solution_LeetCode100 solution_leetCode100;
 }
 
+void LeetCode122() {
+    Solution_LeetCode122 solution_leetCode122;
+    vector<vector<int>> nums = {{7, 1, 5, 3, 6, 4},
+                                {1, 2, 3, 4, 5},
+                                {7, 6, 5, 4, 3, 1}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode122.maxProfit(nums[i]) << endl;
+    }
+}
+
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode53();
+    LeetCode122();
     return 0;
 }
