@@ -8,6 +8,7 @@
 #include "LeetCode4.h"
 #include "LeetCode5.h"
 #include "LeetCode7.h"
+#include "LeetCode8.h"
 #include "LeetCode9.h"
 #include "LeetCode10.h"
 #include "LeetCode16.h"
@@ -60,6 +61,14 @@ void LeetCode7() {
     Solution_LeetCode7 solution_leetCode7;
     for (int i : x) {
         cout << solution_leetCode7.reverse(i) << endl;
+    }
+}
+
+void LeetCode8() {
+    vector<string> strings = {"42", "-42", "4193 with words", "words and 987", "-91283472332", "+1"};
+    Solution_LeetCode8 solution_leetCode8;
+    for (int i = 0; i < strings.size(); ++i) {
+        cout << solution_leetCode8.myAtoi(strings[i]) << endl;
     }
 }
 
@@ -254,6 +263,6 @@ void LeetCode134() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode134();
+    LeetCode8();
     return 0;
 }
