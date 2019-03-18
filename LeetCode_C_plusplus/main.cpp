@@ -17,6 +17,7 @@
 #include "LeetCode27.h"
 #include "LeetCode28.h"
 #include "LeetCode29.h"
+#include "LeetCode31.h"
 #include "LeetCode33.h"
 #include "LeetCode34.h"
 #include "LeetCode35.h"
@@ -135,6 +136,17 @@ void LeetCode29() {
     Solution_LeetCode29 solution_leetCode29;
     for (int i = 0; i < nums1.size(); ++i) {
         cout << solution_leetCode29.divide(nums1[i], nums2[i]) << endl;
+    }
+}
+
+void LeetCode31() {
+    Solution_LeetCode31 solution_leetCode31;
+    vector<vector<int>> nums = {{1, 2, 3},
+                                {3, 2, 1},
+                                {1, 1, 5},
+                                {1, 3, 2}};
+    for (int i = 0; i < nums.size(); i++) {
+        solution_leetCode31.nextPermutation(nums[i]);
     }
 }
 
@@ -263,6 +275,6 @@ void LeetCode134() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode8();
+    LeetCode31();
     return 0;
 }
