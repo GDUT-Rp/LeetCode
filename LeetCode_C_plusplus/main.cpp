@@ -5,6 +5,7 @@
 #include <set>
 
 #include "LeetCode1.h"
+#include "LeetCode2.h"
 #include "LeetCode3.h"
 #include "LeetCode4.h"
 #include "LeetCode5.h"
@@ -37,10 +38,14 @@ using namespace std;
 
 void LeetCode1() {
     Solution_LeetCode1 solution_leetCode1;
-    vector<int> nums = {2, 7,11,15};
+    vector<int> nums = {2, 7, 11, 15};
     int target = 9;
     nums = solution_leetCode1.twoSum(nums, target);
     cout << nums[0] << nums[1] << endl;
+}
+
+void LeetCode2() {
+    Solution_LeetCode2 solution_leetCode2;
 }
 
 void LeetCode3() {
@@ -284,6 +289,6 @@ void LeetCode134() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode1();
+    LeetCode2();
     return 0;
 }
