@@ -78,7 +78,7 @@ class Solution:
         """
         res = []
         nums.sort()
-        #这种求和为了减少步骤首先是排序比较
+        # 这种求和为了减少步骤首先是排序比较
         a = nums[:4]
         if sum(nums[:4]) > target:
             return res
@@ -86,20 +86,20 @@ class Solution:
             target1 = target - num
             if sum(nums[index: index + 4]) > target:
                 break
-                #下面的条件是最后的三个数比target1还小就是在target1固定的情况下达不到目标了
-                #或者是我现在的数和我上一次的数相同  确实 这种情况下不进行下一个循环就会重复
-                #记住 这个条件总的就是 要么达不到 要么会重复所以跳过
+                # 下面的条件是最后的三个数比target1还小就是在target1固定的情况下达不到目标了
+                # 或者是我现在的数和我上一次的数相同  确实 这种情况下不进行下一个循环就会重复
+                # 记住 这个条件总的就是 要么达不到 要么会重复所以跳过
             elif sum(nums[-3:]) < target1 or (index > 0 and num == nums[index - 1]):
                 continue
-                #在固定第一个后第二个数进行循环 因为是四个数所以截止到倒数第三个
+                # 在固定第一个后第二个数进行循环 因为是四个数所以截止到倒数第三个
             for j in range(index + 1, len(nums) - 2):
                 target2 = target1 - nums[j]
-                #同样的道理 两种情况剔除
+                # 同样的道理 两种情况剔除
                 if nums[j + 1] + nums[j + 2] > target2:
                     break
                 elif nums[-2] + nums[-1] < target2 or (j > index + 1 and nums[j] == nums[j - 1]):
                     continue
-                    #再把特殊情况剔除后达到我们最后两个数的和等于目标  用双指针法  但为什么这么写会快很多啊 不是很懂 ：（
+                    # 再把特殊情况剔除后达到我们最后两个数的和等于目标  用双指针法  但为什么这么写会快很多啊 不是很懂 ：（
                 l, r = j + 1, len(nums) - 1
                 while l < r:
                     temp = nums[l] + nums[r]
@@ -113,7 +113,7 @@ class Solution:
                             l += 1
                         while l < r and nums[r] == nums[r - 1]:
                             r -= 1
-                        #相等之后确实两面都要移  不然会重复 因为这两个数相等的结果都有了
+                        # 相等之后确实两面都要移  不然会重复 因为这两个数相等的结果都有了
                         l += 1
                         r -= 1
         return res
