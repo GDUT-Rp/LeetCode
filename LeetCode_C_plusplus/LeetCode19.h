@@ -17,11 +17,11 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+//struct ListNode {
+//    int val;
+//    ListNode *next;
+//    ListNode(int x) : val(x), next(NULL) {}
+//};
 
 class Solution_LeetCode19 {
 public:

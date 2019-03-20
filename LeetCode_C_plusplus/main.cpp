@@ -9,6 +9,7 @@
 #include "LeetCode3.h"
 #include "LeetCode4.h"
 #include "LeetCode5.h"
+#include "LeetCode6.h"
 #include "LeetCode7.h"
 #include "LeetCode8.h"
 #include "LeetCode9.h"
@@ -68,6 +69,15 @@ void LeetCode5() {
     for (string str: list) {
         cout << str << endl;
         cout << solution_leetCode5.longestPalindrome(str) << endl;
+    }
+}
+
+void LeetCode6() {
+    vector<string> s = {"LEETCODEISHIRING", "LEETCODEISHIRING", "A", "AB"};
+    vector<int> numRows = {3, 4, 1, 1};
+    Solution_LeetCode6 solution_leetCode6;
+    for (int i = 0; i < s.size(); ++i) {
+        cout << solution_leetCode6.convert(s[i], numRows[i]) << endl;
     }
 }
 
@@ -289,6 +299,6 @@ void LeetCode134() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode2();
+    LeetCode6();
     return 0;
 }
