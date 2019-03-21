@@ -26,6 +26,7 @@
 #include "LeetCode35.h"
 #include "LeetCode50.h"
 #include "LeetCode53.h"
+#include "LeetCode55.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
 #include "LeetCode78.h"
@@ -217,6 +218,16 @@ void LeetCode53() {
     cout << solution_leetCode53.maxSubArray(nums) << endl;
 }
 
+void LeetCode55() {
+    Solution_LeetCode55 solution_leetCode55;
+    vector<vector<int>> nums = {{2, 3, 1, 1, 4},
+                                {3, 2, 1, 0, 4},
+                                {0, 2, 3}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode55.canJump(nums[i]) << "\n";
+    }
+}
+
 void LeetCode69() {
     int x[10] = {4, 8};
     Solution_LeetCode69 solution_leetCode69;
@@ -299,6 +310,6 @@ void LeetCode134() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode6();
+    LeetCode55();
     return 0;
 }
