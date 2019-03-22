@@ -24,6 +24,7 @@
 #include "LeetCode33.h"
 #include "LeetCode34.h"
 #include "LeetCode35.h"
+#include "LeetCode45.h"
 #include "LeetCode50.h"
 #include "LeetCode53.h"
 #include "LeetCode55.h"
@@ -203,6 +204,17 @@ void LeetCode35() {
     cout << solution_leetCode35.searchInsert(nums, target) << endl;
 }
 
+void LeetCode45() {
+    vector<vector<int>> nums = {{2, 3, 1, 1, 4},
+                                {2, 1},
+                                {1, 2, 3},
+                                {2, 3, 1}};
+    Solution_LeetCode45 solution_leetCode45;
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode45.jump(nums[i]) << endl;
+    }
+}
+
 void LeetCode50() {
     double x[10] = {2, 2.1, 2};
     int n[10] = {10, 3, -2};
@@ -310,6 +322,6 @@ void LeetCode134() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode55();
+    LeetCode45();
     return 0;
 }
