@@ -35,6 +35,7 @@
 #include "LeetCode100.h"
 #include "LeetCode122.h"
 #include "LeetCode134.h"
+#include "LeetCode135.h"
 
 
 using namespace std;
@@ -319,9 +320,20 @@ void LeetCode134() {
     }
 }
 
+void LeetCode135() {
+    Solution_LeetCode135 solution_leetCode135;
+    vector<vector<int>> nums = {{1, 0, 2},
+                                {1, 2, 2},
+                                {1, 2, 87, 87, 87, 2, 1},
+                                {1, 3, 4,  5,  2}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode135.candy(nums[i]) << endl;
+    }
+}
+
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode45();
+    LeetCode135();
     return 0;
 }
