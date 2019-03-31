@@ -14,6 +14,7 @@
 #include "LeetCode8.h"
 #include "LeetCode9.h"
 #include "LeetCode10.h"
+#include "LeetCode12.h"
 #include "LeetCode16.h"
 #include "LeetCode19.h"
 #include "LeetCode26.h"
@@ -116,6 +117,14 @@ void LeetCode10() {
     vector<string> p = {"a", "a*", ".*", "c*a*b", "mis*is*p*."};
     for (int i = 0; i < s.size(); ++i) {
         cout << s[i] << endl << p[i] << endl << solution_leetCode10.isMatch(s[i], p[i]) << endl;
+    }
+}
+
+void LeetCode12() {
+    Solution_LeetCode12 solution_leetCode12;
+    vector<int> nums = {3, 4, 9, 5, 8, 1994};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode12.intToRoman(nums[i]) << endl;
     }
 }
 
@@ -334,6 +343,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode135();
+    LeetCode12();
     return 0;
 }
