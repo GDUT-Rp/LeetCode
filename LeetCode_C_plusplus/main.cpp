@@ -16,6 +16,7 @@
 #include "LeetCode10.h"
 #include "LeetCode12.h"
 #include "LeetCode16.h"
+#include "LeetCode17.h"
 #include "LeetCode19.h"
 #include "LeetCode26.h"
 #include "LeetCode27.h"
@@ -136,6 +137,19 @@ void LeetCode16() {
         cout << solution_leetCode16.threeSumClosest(nums[i], target[i]) << endl;
     }
 }
+
+void LeetCode17() {
+    Solution_LeetCode17 solution_leetCode17;
+    vector<string> str = {"23"};
+    for (int i = 0; i < str.size(); ++i) {
+        str = solution_leetCode17.letterCombinations(str[i]);
+        for (int j = 0; j < str.size(); ++j) {
+            cout << str[j] << " ";
+        }
+        cout << endl;
+    }
+}
+
 
 void LeetCode19() {
     Solution_LeetCode19 solution_leetCode19;
@@ -343,6 +357,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode12();
+    LeetCode17();
     return 0;
 }
