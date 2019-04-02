@@ -18,6 +18,7 @@
 #include "LeetCode16.h"
 #include "LeetCode17.h"
 #include "LeetCode19.h"
+#include "LeetCode22.h"
 #include "LeetCode26.h"
 #include "LeetCode27.h"
 #include "LeetCode28.h"
@@ -150,9 +151,19 @@ void LeetCode17() {
     }
 }
 
-
 void LeetCode19() {
     Solution_LeetCode19 solution_leetCode19;
+}
+
+void LeetCode22() {
+    Solution_LeetCode22 solution_leetCode22;
+    vector<int> nums = {3};
+    for (int i = 0; i < nums.size(); ++i) {
+        vector<string> ans = solution_leetCode22.generateParenthesis2(nums[i]);
+        for (int j = 0; j < ans.size(); ++j) {
+            cout << ans[j] << endl;
+        }
+    }
 }
 
 void LeetCode26() {
@@ -357,6 +368,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode17();
+    LeetCode22();
     return 0;
 }
