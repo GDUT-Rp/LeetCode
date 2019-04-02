@@ -31,18 +31,6 @@ public:
             backtravel(sublist + ")", res, left, right - 1);
         }
     }
-
-    vector<string> generateParenthesis2(int n) {
-        vector<string> ans;
-        if (n == 0) ans.push_back("");
-        else {
-            for (int i = 0; i < n; ++i) {
-                for (string left: generateParenthesis2(i))
-                    for (string right: generateParenthesis2(n - 1 - i))
-                        ans.push_back("(" + left + ")" + right);
-            }
-        }
-    }
 };
 
 
