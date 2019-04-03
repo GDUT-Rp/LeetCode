@@ -28,6 +28,7 @@
 #include "LeetCode34.h"
 #include "LeetCode35.h"
 #include "LeetCode39.h"
+#include "LeetCode40.h"
 #include "LeetCode45.h"
 #include "LeetCode50.h"
 #include "LeetCode53.h"
@@ -249,7 +250,7 @@ void LeetCode39() {
     for (int i = 0; i < target.size(); ++i) {
         ans = solution_leetCode39.combinationSum(candidates[i], target[i]);
         for (int j = 0; j < ans.size(); ++j) {
-            for (int z = 0; z < ans[j].size(); z++){
+            for (int z = 0; z < ans[j].size(); z++) {
                 cout << ans[j][z] << " ";
             }
             cout << endl;
@@ -258,6 +259,23 @@ void LeetCode39() {
     }
 }
 
+void LeetCode40() {
+    Solution_LeetCode40 solution_leetCode40;
+    vector<vector<int>> candidates = {{10, 1, 2, 7, 6, 1, 5},
+                                      {2,  5, 2, 1, 2}};
+    vector<int> target = {8, 5};
+    vector<vector<int>> ans;
+    for (int i = 0; i < candidates.size(); ++i) {
+        ans = solution_leetCode40.combinationSum2(candidates[i], target[i]);
+        for (int j = 0; j < ans.size(); ++j) {
+            for (int k = 0; k < ans[j].size(); ++k) {
+                cout << ans[j][k] << " ";
+            }
+            cout << endl;
+        }
+        cout << "*************" << endl;
+    }
+}
 
 void LeetCode45() {
     vector<vector<int>> nums = {{2, 3, 1, 1, 4},
@@ -388,6 +406,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode39();
+    LeetCode40();
     return 0;
 }
