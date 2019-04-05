@@ -17,20 +17,20 @@ public:
         sort(candidates.begin(), candidates.end());
         vector<vector<int>> ans;
         vector<int> pre;
-        BFS(ans, pre, target, 0, candidates);
+        DFS_(ans, pre, target, 0, candidates);
         set<vector<int>> tmp(ans.begin(), ans.end());
         ans.assign(tmp.begin(), tmp.end());
         return ans;
     }
 
-    void BFS(vector<vector<int>> &ans, vector<int> &pre, int target, int index, vector<int> &candidates) {
+    void DFS_(vector<vector<int>> &ans, vector<int> &pre, int target, int index, vector<int> &candidates) {
         int len = candidates.size();
         if (index >= len) return;
         for (int i = index; i < len; ++i) {
             vector<int> tmp(pre);
             if (candidates[i] < target) {
                 tmp.push_back(candidates[i]);
-                BFS(ans, tmp, target - candidates[i], i + 1, candidates);
+                DFS_(ans, tmp, target - candidates[i], i + 1, candidates);
             } else if (candidates[i] > target) return;
             else {
                 tmp.push_back(candidates[i]);

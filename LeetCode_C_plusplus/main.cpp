@@ -30,6 +30,7 @@
 #include "LeetCode39.h"
 #include "LeetCode40.h"
 #include "LeetCode45.h"
+#include "LeetCode46.h"
 #include "LeetCode50.h"
 #include "LeetCode53.h"
 #include "LeetCode55.h"
@@ -288,6 +289,21 @@ void LeetCode45() {
     }
 }
 
+void LeetCode46() {
+    Solution_LeetCode46 solution_leetCode46;
+    vector<vector<int>> nums = {{1, 2, 3}};
+    vector<vector<int>> ans;
+    for (int i = 0; i < nums.size(); ++i) {
+        ans = solution_leetCode46.permute2(nums[i]);
+        for (int j = 0; j < ans.size(); ++j) {
+            for (int k = 0; k < ans[j].size(); ++k) {
+                cout << ans[j][k] << " ";
+            }
+            cout << endl;
+        }
+    }
+}
+
 void LeetCode50() {
     double x[10] = {2, 2.1, 2};
     int n[10] = {10, 3, -2};
@@ -406,6 +422,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode40();
+    LeetCode46();
     return 0;
 }
