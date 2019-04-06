@@ -35,6 +35,7 @@
 #include "LeetCode53.h"
 #include "LeetCode55.h"
 #include "LeetCode62.h"
+#include "LeetCode63.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
 #include "LeetCode78.h"
@@ -339,6 +340,17 @@ void LeetCode62() {
     }
 }
 
+void LeetCode63() {
+    Solution_LeetCode63 solution_leetCode63;
+    vector<vector<vector<int>>> nums = {{{0, 0, 0},
+                                                {0, 1, 0},
+                                                {0, 0, 0}},
+    };
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode63.uniquePathsWithObstacles(nums[i]) << endl;
+    }
+}
+
 void LeetCode69() {
     int x[10] = {4, 8};
     Solution_LeetCode69 solution_leetCode69;
@@ -432,6 +444,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode62();
+    LeetCode63();
     return 0;
 }
