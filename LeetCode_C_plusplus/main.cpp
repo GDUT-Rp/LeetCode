@@ -34,6 +34,7 @@
 #include "LeetCode50.h"
 #include "LeetCode53.h"
 #include "LeetCode55.h"
+#include "LeetCode62.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
 #include "LeetCode78.h"
@@ -294,7 +295,7 @@ void LeetCode46() {
     vector<vector<int>> nums = {{1, 2, 3}};
     vector<vector<int>> ans;
     for (int i = 0; i < nums.size(); ++i) {
-        ans = solution_leetCode46.permute2(nums[i]);
+        ans = solution_leetCode46.permute(nums[i]);
         for (int j = 0; j < ans.size(); ++j) {
             for (int k = 0; k < ans[j].size(); ++k) {
                 cout << ans[j][k] << " ";
@@ -326,6 +327,15 @@ void LeetCode55() {
                                 {0, 2, 3}};
     for (int i = 0; i < nums.size(); ++i) {
         cout << solution_leetCode55.canJump(nums[i]) << "\n";
+    }
+}
+
+void LeetCode62() {
+    Solution_LeetCode62 solution_leetCode62;
+    vector<int> m = {3, 7};
+    vector<int> n = {2, 3};
+    for (int i = 0; i < m.size(); ++i) {
+        cout << solution_leetCode62.uniquePaths(m[i], n[i]) << endl;
     }
 }
 
@@ -422,6 +432,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode46();
+    LeetCode62();
     return 0;
 }
