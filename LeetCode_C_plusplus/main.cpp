@@ -36,6 +36,7 @@
 #include "LeetCode55.h"
 #include "LeetCode62.h"
 #include "LeetCode63.h"
+#include "LeetCode64.h"
 #include "LeetCode69.h"
 #include "LeetCode74.h"
 #include "LeetCode78.h"
@@ -351,6 +352,18 @@ void LeetCode63() {
     }
 }
 
+void LeetCode64() {
+    Solution_LeetCode64 solution_leetCode64;
+    vector<vector<vector<int>>> nums = {{{1, 3, 1},
+                                                 {1, 5, 1},
+                                                         {4, 2, 1}},
+                                        {
+                                         {1, 2}, {5, 6}, {1, 1}}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode64.minPathSum(nums[i]) << endl;
+    }
+}
+
 void LeetCode69() {
     int x[10] = {4, 8};
     Solution_LeetCode69 solution_leetCode69;
@@ -444,6 +457,6 @@ void LeetCode135() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode63();
+    LeetCode64();
     return 0;
 }
