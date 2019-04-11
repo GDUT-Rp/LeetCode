@@ -41,6 +41,7 @@
 #include "LeetCode74.h"
 #include "LeetCode78.h"
 #include "LeetCode81.h"
+#include "LeetCode91.h"
 #include "LeetCode100.h"
 #include "LeetCode122.h"
 #include "LeetCode134.h"
@@ -415,6 +416,14 @@ void LeetCode81() {
     cout << solution_leetCode81.search(nums, target) << endl;
 }
 
+void LeetCode91() {
+    Solution_LeetCode91 solution_leetCode91;
+    vector<string> s = {"12", "226", "10", "01", "301"};
+    for (string a : s) {
+        cout << solution_leetCode91.numDecodings(a) << endl;
+    }
+}
+
 void LeetCode100() {
     Solution_LeetCode100 solution_leetCode100;
 }
@@ -468,6 +477,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode416();
+    LeetCode91();
     return 0;
 }
