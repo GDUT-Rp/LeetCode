@@ -42,6 +42,7 @@
 #include "LeetCode78.h"
 #include "LeetCode81.h"
 #include "LeetCode91.h"
+#include "LeetCode96.h"
 #include "LeetCode100.h"
 #include "LeetCode122.h"
 #include "LeetCode134.h"
@@ -424,6 +425,14 @@ void LeetCode91() {
     }
 }
 
+void LeetCode96() {
+    Solution_LeetCode96 solution_leetCode96;
+    vector<int> nums = {3, 4};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode96.numTrees(nums[i]) << endl;
+    }
+}
+
 void LeetCode100() {
     Solution_LeetCode100 solution_leetCode100;
 }
@@ -477,6 +486,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode91();
+    LeetCode96();
     return 0;
 }
