@@ -18,7 +18,9 @@
 #include "LeetCode16.h"
 #include "LeetCode17.h"
 #include "LeetCode19.h"
+#include "LeetCode21.h"
 #include "LeetCode22.h"
+#include "LeetCode24.h"
 #include "LeetCode26.h"
 #include "LeetCode27.h"
 #include "LeetCode28.h"
@@ -162,6 +164,10 @@ void LeetCode17() {
 
 void LeetCode19() {
     Solution_LeetCode19 solution_leetCode19;
+}
+
+void LeetCode21() {
+
 }
 
 void LeetCode22() {
