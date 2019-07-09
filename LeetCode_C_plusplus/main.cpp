@@ -22,6 +22,7 @@
 #include "LeetCode22.h"
 #include "LeetCode23.h"
 #include "LeetCode24.h"
+#include "LeetCode25.h"
 #include "LeetCode26.h"
 #include "LeetCode27.h"
 #include "LeetCode28.h"
