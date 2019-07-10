@@ -27,6 +27,7 @@
 #include "LeetCode27.h"
 #include "LeetCode28.h"
 #include "LeetCode29.h"
+#include "LeetCode30.h"
 #include "LeetCode31.h"
 #include "LeetCode33.h"
 #include "LeetCode34.h"
@@ -215,6 +216,21 @@ void LeetCode29() {
     for (int i = 0; i < nums1.size(); ++i) {
         cout << solution_leetCode29.divide(nums1[i], nums2[i]) << endl;
     }
+}
+
+void LeetCode30() {
+    Solution_LeetCode30 solution_leetCode30;
+    vector<string> strings = {"barfoothefoobarman", "wordgoodgoodgoodbestword"};
+    vector<vector<string>> words = {{"foo",  "bar"},
+                                    {"word", "good", "best", "word"}};
+    for (int i = 0; i < strings.size(); ++i) {
+        vector<int> nums = solution_leetCode30.findSubstring(strings[i], words[i]);
+        for (int num : nums) {
+            cout << num << " ";
+        }
+        cout << endl;
+    }
+
 }
 
 void LeetCode31() {
