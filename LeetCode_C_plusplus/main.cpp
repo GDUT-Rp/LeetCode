@@ -32,6 +32,7 @@
 #include "LeetCode33.h"
 #include "LeetCode34.h"
 #include "LeetCode35.h"
+#include "LeetCode36.h"
 #include "LeetCode39.h"
 #include "LeetCode40.h"
 #include "LeetCode45.h"
@@ -271,6 +272,12 @@ void LeetCode35() {
     Solution_LeetCode35 solution_leetCode35;
     cout << solution_leetCode35.searchInsert(nums, target) << endl;
 }
+
+void LeetCode36() {
+    Solution_LeetCode36 solution_leetcode36;
+
+}
+
 
 void LeetCode39() {
     Solution_LeetCode39 solution_leetCode39;
