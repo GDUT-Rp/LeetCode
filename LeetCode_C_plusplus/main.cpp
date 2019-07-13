@@ -33,6 +33,7 @@
 #include "LeetCode34.h"
 #include "LeetCode35.h"
 #include "LeetCode36.h"
+#include "LeetCode37.h"
 #include "LeetCode39.h"
 #include "LeetCode40.h"
 #include "LeetCode45.h"
@@ -275,9 +276,11 @@ void LeetCode35() {
 
 void LeetCode36() {
     Solution_LeetCode36 solution_leetcode36;
-
 }
 
+void LeetCode37() {
+    Solution_LeetCode37 solution_leetCode37;
+}
 
 void LeetCode39() {
     Solution_LeetCode39 solution_leetCode39;
