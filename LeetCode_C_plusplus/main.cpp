@@ -34,6 +34,7 @@
 #include "LeetCode35.h"
 #include "LeetCode36.h"
 #include "LeetCode37.h"
+#include "LeetCode38.h"
 #include "LeetCode39.h"
 #include "LeetCode40.h"
 #include "LeetCode45.h"
@@ -280,6 +281,14 @@ void LeetCode36() {
 
 void LeetCode37() {
     Solution_LeetCode37 solution_leetCode37;
+}
+
+void LeetCode38() {
+    Solution_LeetCode38 solution_leetCode38;
+    vector<int> nums = {1, 4};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode38.countAndSay(nums[i]) << endl;
+    }
 }
 
 void LeetCode39() {
