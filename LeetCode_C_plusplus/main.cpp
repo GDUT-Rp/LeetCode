@@ -37,6 +37,7 @@
 #include "LeetCode38.h"
 #include "LeetCode39.h"
 #include "LeetCode40.h"
+#include "LeetCode41.h"
 #include "LeetCode45.h"
 #include "LeetCode46.h"
 #include "LeetCode50.h"
@@ -324,6 +325,16 @@ void LeetCode40() {
             cout << endl;
         }
         cout << "*************" << endl;
+    }
+}
+
+void LeetCode41() {
+    Solution_LeetCode41 solution_leetCode41;
+    vector<vector<int>> nums = {{1, 2, 0},
+                                {3, 4, -1, 1},
+                                {7, 8, 9,  11, 12}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode41.firstMissingPositive(nums[i]) << endl;
     }
 }
 
