@@ -38,6 +38,7 @@
 #include "LeetCode39.h"
 #include "LeetCode40.h"
 #include "LeetCode41.h"
+#include "LeetCode42.h"
 #include "LeetCode45.h"
 #include "LeetCode46.h"
 #include "LeetCode50.h"
@@ -338,6 +339,12 @@ void LeetCode41() {
     }
 }
 
+void LeetCode42() {
+    Solution_LeetCode42 solution_leetCode42;
+    vector<int> nums = {0,1,0,2,1,0,3,2,1,2,1};
+    cout << solution_leetCode42.trap1(nums) << endl;
+}
+
 void LeetCode45() {
     vector<vector<int>> nums = {{2, 3, 1, 1, 4},
                                 {2, 1},
@@ -540,6 +547,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode96();
+    LeetCode42();
     return 0;
 }
