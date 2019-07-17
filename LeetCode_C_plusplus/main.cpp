@@ -39,6 +39,7 @@
 #include "LeetCode40.h"
 #include "LeetCode41.h"
 #include "LeetCode42.h"
+#include "LeetCode43.h"
 #include "LeetCode45.h"
 #include "LeetCode46.h"
 #include "LeetCode50.h"
@@ -57,6 +58,7 @@
 #include "LeetCode122.h"
 #include "LeetCode134.h"
 #include "LeetCode135.h"
+#include "LeetCode415.h"
 #include "LeetCode416.h"
 
 
@@ -345,6 +347,15 @@ void LeetCode42() {
     cout << solution_leetCode42.trap1(nums) << endl;
 }
 
+void LeetCode43() {
+    Solution_LeetCode43 solution_leetCode43;
+    vector<string> nums1 = {"2", "123"};
+    vector<string> nums2 = {"3", "456"};
+    for (int i = 0; i < nums1.size(); ++i) {
+        cout << solution_leetCode43.multiply(nums1[i], nums2[i]) << endl;
+    }
+}
+
 void LeetCode45() {
     vector<vector<int>> nums = {{2, 3, 1, 1, 4},
                                 {2, 1},
@@ -534,6 +545,15 @@ void LeetCode135() {
     }
 }
 
+void LeetCode415() {
+    Solution_LeetCode415 solution_leetCode415;
+    vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
+    vector<string> nums2 = {"3", "456", "123", "9", "1", "9"};
+    for (int i = 0; i < nums1.size(); ++i) {
+        cout << solution_leetCode415.addStrings(nums1[i], nums2[i]) << endl;
+    }
+}
+
 void LeetCode416() {
     Solution_LeetCode416 solution_leetCode416;
     vector<vector<int>> nums = {{1, 5, 11, 5},
@@ -547,6 +567,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode42();
+    LeetCode415();
     return 0;
 }
