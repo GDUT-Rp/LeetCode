@@ -349,8 +349,8 @@ void LeetCode42() {
 
 void LeetCode43() {
     Solution_LeetCode43 solution_leetCode43;
-    vector<string> nums1 = {"2", "123"};
-    vector<string> nums2 = {"3", "456"};
+    vector<string> nums1 = {"123", "65", "100", "123456789", "167141802233061013023557397451289113296441069", "654"};
+    vector<string> nums2 = {"456", "654", "100", "987654321", "401716832807512840963", "0"};
     for (int i = 0; i < nums1.size(); ++i) {
         cout << solution_leetCode43.multiply(nums1[i], nums2[i]) << endl;
     }
