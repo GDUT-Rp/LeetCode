@@ -40,6 +40,7 @@
 #include "LeetCode41.h"
 #include "LeetCode42.h"
 #include "LeetCode43.h"
+#include "LeetCode44.h"
 #include "LeetCode45.h"
 #include "LeetCode46.h"
 #include "LeetCode50.h"
@@ -343,7 +344,7 @@ void LeetCode41() {
 
 void LeetCode42() {
     Solution_LeetCode42 solution_leetCode42;
-    vector<int> nums = {0,1,0,2,1,0,3,2,1,2,1};
+    vector<int> nums = {0, 1, 0, 2, 1, 0, 3, 2, 1, 2, 1};
     cout << solution_leetCode42.trap1(nums) << endl;
 }
 
@@ -354,6 +355,16 @@ void LeetCode43() {
     for (int i = 0; i < nums1.size(); ++i) {
         cout << solution_leetCode43.multiply(nums1[i], nums2[i]) << endl;
     }
+}
+
+void LeetCode44() {
+    Solution_LeetCode44 solution_leetCode44;
+    vector<string> s = {"aa", "aa", "cb", "adceb", "acdcb"};
+    vector<string> p = {"a", "*", "?a", "*a*b", "a*c?b"};
+    for (int i = 0; i < s.size(); ++i) {
+        cout << solution_leetCode44.isMatch(s[i], p[i]) << endl;
+    }
+
 }
 
 void LeetCode45() {
@@ -567,6 +578,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode43();
+    LeetCode44();
     return 0;
 }
