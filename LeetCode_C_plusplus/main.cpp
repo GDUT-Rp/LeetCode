@@ -60,6 +60,7 @@
 #include "LeetCode134.h"
 #include "LeetCode135.h"
 #include "LeetCode153.h"
+#include "LeetCode154.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -569,6 +570,16 @@ void LeetCode153() {
     }
 }
 
+void LeetCode154() {
+    Solution_LeetCode154 solution_leetCode154;
+    vector<vector<int>> nums = {{1, 3, 5},
+                                {2, 2, 2, 0, 1},
+                                {1, 1}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode154.findMin(nums[i]) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -591,6 +602,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode153();
+    LeetCode154();
     return 0;
 }
