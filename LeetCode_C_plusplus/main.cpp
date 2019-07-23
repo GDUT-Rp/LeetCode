@@ -61,6 +61,7 @@
 #include "LeetCode135.h"
 #include "LeetCode153.h"
 #include "LeetCode154.h"
+#include "LeetCode162.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -580,6 +581,15 @@ void LeetCode154() {
     }
 }
 
+void LeetCode162() {
+    Solution_LeetCode162 solution_leetCode162;
+    vector<vector<int>> nums = {{1, 2, 3, 1},
+                                {1, 2, 1, 3, 5, 6, 4}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode162.findPeakElement(nums[i]) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -602,6 +612,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode154();
+    LeetCode162();
     return 0;
 }
