@@ -50,6 +50,7 @@
 #include "LeetCode63.h"
 #include "LeetCode64.h"
 #include "LeetCode69.h"
+#include "LeetCode72.h"
 #include "LeetCode74.h"
 #include "LeetCode78.h"
 #include "LeetCode81.h"
@@ -458,6 +459,15 @@ void LeetCode69() {
     Solution_LeetCode69 solution_leetCode69;
     for (int i = 0; i < 2; ++i) {
         cout << solution_leetCode69.mySqrt_newton(x[i]) << endl;
+    }
+}
+
+void LeetCode72() {
+    vector<string> word1 = {"horse", "intention"};
+    vector<string> word2 = {"ros", "execution"};
+    Solution_LeetCode72 solution_leetCode72;
+    for (int i = 0; i < word1.size(); ++i) {
+        cout << solution_leetCode72.minDistance(word1[i], word2[i]) << endl;
     }
 }
 
