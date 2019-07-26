@@ -54,6 +54,8 @@
 #include "LeetCode74.h"
 #include "LeetCode78.h"
 #include "LeetCode81.h"
+#include "LeetCode84.h"
+#include "LeetCode85.h"
 #include "LeetCode91.h"
 #include "LeetCode96.h"
 #include "LeetCode100.h"
@@ -513,6 +515,18 @@ void LeetCode81() {
     cout << solution_leetCode81.search(nums, target) << endl;
 }
 
+void LeetCode84() {
+    Solution_LeetCode84 solution_leetCode84;
+    vector<vector<int>> nums = {{2, 1, 5, 6, 2, 3}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode84.largestRectangleArea_stack(nums[i]) << endl;
+    }
+}
+
+void LeetCode85() {
+    Solution_LeetCode85 solution_leetCode85;
+}
+
 void LeetCode91() {
     Solution_LeetCode91 solution_leetCode91;
     vector<string> s = {"12", "226", "10", "01", "301"};
@@ -622,6 +636,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode162();
+    LeetCode84();
     return 0;
 }
