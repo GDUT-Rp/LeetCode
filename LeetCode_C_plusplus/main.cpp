@@ -525,6 +525,15 @@ void LeetCode84() {
 
 void LeetCode85() {
     Solution_LeetCode85 solution_leetCode85;
+    vector<vector<char>> matrix = {
+            {'1','0','1','0','0'},
+            {'1','0','1','1','1'},
+            {'1','1','1','1','1'},
+            {'1','0','0','1','0'}
+    };
+    cout << solution_leetCode85.maximalRectangle_stack(matrix) << endl;
+
+
 }
 
 void LeetCode91() {
@@ -636,6 +645,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode84();
+    LeetCode85();
     return 0;
 }
