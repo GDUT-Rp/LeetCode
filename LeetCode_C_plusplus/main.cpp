@@ -61,6 +61,7 @@
 #include "LeetCode100.h"
 #include "LeetCode121.h"
 #include "LeetCode122.h"
+#include "LeetCode123.h"
 #include "LeetCode134.h"
 #include "LeetCode135.h"
 #include "LeetCode153.h"
@@ -566,6 +567,15 @@ void LeetCode121() {
     }
 }
 
+void LeetCode123() {
+    Solution_LeetCode123 solution_leetCode123;
+    vector<vector<int>> nums = {{3, 3, 5, 0, 0, 3, 1, 4},
+                                {1, 2, 3, 4, 5}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode123.maxProfit(nums[i]) << endl;
+    }
+}
+
 void LeetCode122() {
     Solution_LeetCode122 solution_leetCode122;
     vector<vector<int>> nums = {{7, 1, 5, 3, 6, 4},
@@ -655,6 +665,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode121();
+    LeetCode123();
     return 0;
 }
