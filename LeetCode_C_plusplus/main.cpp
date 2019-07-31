@@ -56,6 +56,7 @@
 #include "LeetCode81.h"
 #include "LeetCode84.h"
 #include "LeetCode85.h"
+#include "LeetCode87.h"
 #include "LeetCode91.h"
 #include "LeetCode96.h"
 #include "LeetCode100.h"
@@ -534,8 +535,15 @@ void LeetCode85() {
             {'1', '0', '0', '1', '0'}
     };
     cout << solution_leetCode85.maximalRectangle_stack(matrix) << endl;
+}
 
-
+void LeetCode87() {
+    Solution_LeetCode87 solution_leetCode87;
+    vector<string> s1 = {"great", "rgeat"};
+    vector<string> s2 = {"abcde", "caebd"};
+    for (int i = 0; i < s1.size(); ++i) {
+        cout << solution_leetCode87.isScramble(s1[i], s2[i]) << endl;
+    }
 }
 
 void LeetCode91() {
@@ -665,6 +673,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode123();
+    LeetCode87();
     return 0;
 }
