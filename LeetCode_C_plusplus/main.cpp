@@ -59,6 +59,7 @@
 #include "LeetCode87.h"
 #include "LeetCode91.h"
 #include "LeetCode96.h"
+#include "LeetCode97.h"
 #include "LeetCode100.h"
 #include "LeetCode121.h"
 #include "LeetCode122.h"
@@ -562,6 +563,16 @@ void LeetCode96() {
     }
 }
 
+void LeetCode97() {
+    vector<string> s1 = {"aabcc", "aabcc"};
+    vector<string> s2 = {"dbbca", "dbbca"};
+    vector<string> s3 = {"aadbbcbcac", "aadbbbaccc"};
+    Solution_LeetCode97 solution_leetCode97;
+    for (int i = 0; i < s1.size(); ++i) {
+        cout << solution_leetCode97.isInterleave(s1[i], s2[i], s3[i]) << endl;
+    }
+}
+
 void LeetCode100() {
     Solution_LeetCode100 solution_leetCode100;
 }
@@ -673,6 +684,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode87();
+    LeetCode97();
     return 0;
 }
