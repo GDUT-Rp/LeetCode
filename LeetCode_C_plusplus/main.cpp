@@ -61,6 +61,7 @@
 #include "LeetCode96.h"
 #include "LeetCode97.h"
 #include "LeetCode100.h"
+#include "LeetCode115.h"
 #include "LeetCode121.h"
 #include "LeetCode122.h"
 #include "LeetCode123.h"
@@ -577,6 +578,15 @@ void LeetCode100() {
     Solution_LeetCode100 solution_leetCode100;
 }
 
+void LeetCode115() {
+    Solution_LeetCode115 solution_leetCode115;
+    vector<string> S = {"rabbbit", "babgbag"};
+    vector<string> T = {"rabbit", "bag"};
+    for (int i = 0; i < S.size(); ++i) {
+        cout << solution_leetCode115.numDistinct(S[i], T[i]) << endl;
+    }
+}
+
 void LeetCode121() {
     Solution_LeetCode121 solution_leetCode121;
     vector<vector<int>> nums = {{7, 1, 5, 3, 6, 4},
@@ -684,6 +694,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode97();
+    LeetCode115();
     return 0;
 }
