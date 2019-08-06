@@ -62,6 +62,7 @@
 #include "LeetCode97.h"
 #include "LeetCode100.h"
 #include "LeetCode115.h"
+#include "LeetCode120.h"
 #include "LeetCode121.h"
 #include "LeetCode122.h"
 #include "LeetCode123.h"
@@ -587,6 +588,15 @@ void LeetCode115() {
     }
 }
 
+void LeetCode120() {
+    Solution_LeetCode120 solution_leetCode120;
+    vector<vector<int>> triangle = {{2},
+                                    {3, 4},
+                                    {6, 5, 7},
+                                    {4, 1, 8, 3}};
+    cout << solution_leetCode120.minimumTotal(triangle) << endl;
+}
+
 void LeetCode121() {
     Solution_LeetCode121 solution_leetCode121;
     vector<vector<int>> nums = {{7, 1, 5, 3, 6, 4},
@@ -694,6 +704,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode115();
+    LeetCode120();
     return 0;
 }
