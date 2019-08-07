@@ -66,6 +66,7 @@
 #include "LeetCode121.h"
 #include "LeetCode122.h"
 #include "LeetCode123.h"
+#include "LeetCode132.h"
 #include "LeetCode134.h"
 #include "LeetCode135.h"
 #include "LeetCode153.h"
@@ -625,6 +626,14 @@ void LeetCode122() {
     }
 }
 
+void LeetCode132() {
+    Solution_LeetCode132 solution_leetCode132;
+    vector<string> s = {"aab"};
+    for (int i = 0; i < s.size(); ++i) {
+        cout << solution_leetCode132.minCut(s[i]) << endl;
+    }
+}
+
 void LeetCode134() {
     Solution_LeetCode134 solution_leetCode134;
     vector<vector<int>> gas = {{1, 2, 3, 4, 5},
@@ -704,6 +713,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode120();
+    LeetCode132();
     return 0;
 }
