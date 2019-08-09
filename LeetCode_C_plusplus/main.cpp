@@ -70,6 +70,7 @@
 #include "LeetCode134.h"
 #include "LeetCode135.h"
 #include "LeetCode139.h"
+#include "LeetCode140.h"
 #include "LeetCode153.h"
 #include "LeetCode154.h"
 #include "LeetCode162.h"
@@ -672,6 +673,20 @@ void LeetCode139() {
     }
 }
 
+void LeetCode140() {
+    Solution_LeetCode140 solution_leetCode140;
+    vector<string> s = {"catsanddog", "pineapplepenapple", "catsandog"};
+    vector<vector<string>> wordDict = {{"cat",   "cats", "and",      "sand", "dog"},
+                                       {"apple", "pen",  "applepen", "pine", "pineapple"},
+                                       {"cats",  "dog",  "sand",     "and",  "cat"}};
+    for (int i = 0; i < s.size(); ++i) {
+        vector<string> ans = solution_leetCode140.wordBreak(s[i], wordDict[i]);
+        for (int j = 0; j < ans.size(); ++j) {
+            cout << ans[j] << endl;
+        }
+    }
+}
+
 void LeetCode153() {
     Solution_LeetCode153 solution_leetCode153;
     vector<vector<int>> nums = {{3, 4, 5, 1, 2},
@@ -725,6 +740,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode132();
+    LeetCode140();
     return 0;
 }
