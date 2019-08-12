@@ -71,6 +71,7 @@
 #include "LeetCode135.h"
 #include "LeetCode139.h"
 #include "LeetCode140.h"
+#include "LeetCode152.h"
 #include "LeetCode153.h"
 #include "LeetCode154.h"
 #include "LeetCode162.h"
@@ -687,6 +688,15 @@ void LeetCode140() {
     }
 }
 
+void LeetCode152() {
+    Solution_LeetCode152 solution_leetCode152;
+    vector<vector<int>> nums = {{2,  3, -2, 4},
+                                {-2, 0, -1}};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode152.maxProduct(nums[i]) << endl;
+    }
+}
+
 void LeetCode153() {
     Solution_LeetCode153 solution_leetCode153;
     vector<vector<int>> nums = {{3, 4, 5, 1, 2},
@@ -740,6 +750,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode140();
+    LeetCode152();
     return 0;
 }
