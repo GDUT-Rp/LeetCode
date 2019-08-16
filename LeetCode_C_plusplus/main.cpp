@@ -76,6 +76,7 @@
 #include "LeetCode154.h"
 #include "LeetCode162.h"
 #include "LeetCode174.h"
+#include "LeetCode198.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -737,6 +738,14 @@ void LeetCode174() {
     cout << solution_leetCode174.calculateMinimumHP(dungeon) << endl;
 }
 
+void LeetCode198() {
+    Solution_LeetCode198 solution_leetCode198;
+    vector<vector<int>> nums = {{1,2,3,1},{2,7,9,3,1}};
+    for (auto num: nums){
+        cout << solution_leetCode198.rob(num) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -759,6 +768,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode174();
+    LeetCode198();
     return 0;
 }
