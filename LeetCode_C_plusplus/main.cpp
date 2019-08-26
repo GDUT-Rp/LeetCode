@@ -77,6 +77,7 @@
 #include "LeetCode162.h"
 #include "LeetCode174.h"
 #include "LeetCode198.h"
+#include "LeetCode213.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -740,9 +741,19 @@ void LeetCode174() {
 
 void LeetCode198() {
     Solution_LeetCode198 solution_leetCode198;
-    vector<vector<int>> nums = {{1,2,3,1},{2,7,9,3,1}};
-    for (auto num: nums){
+    vector<vector<int>> nums = {{1, 2, 3, 1},
+                                {2, 7, 9, 3, 1}};
+    for (auto num: nums) {
         cout << solution_leetCode198.rob(num) << endl;
+    }
+}
+
+void LeetCode213() {
+    Solution_LeetCode213 solution_leetCode213;
+    vector<vector<int>> nums = {{2, 2, 3},
+                                {1, 2, 3, 1}};
+    for (auto num: nums) {
+        cout << solution_leetCode213.rob(num) << endl;
     }
 }
 
@@ -768,6 +779,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode198();
+    LeetCode213();
     return 0;
 }
