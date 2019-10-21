@@ -78,6 +78,7 @@
 #include "LeetCode174.h"
 #include "LeetCode198.h"
 #include "LeetCode213.h"
+#include "LeetCode221.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -757,6 +758,15 @@ void LeetCode213() {
     }
 }
 
+void LeetCode221() {
+    Solution_LeetCode221 solution_LeetCode221;
+    vector<vector<char>> nums = {{'1', '0', '1', '0', '0'},
+                                 {'1', '0', '1', '1', '1'},
+                                 {'1', '1', '1', '1', '1'},
+                                 {'1', '0', '0', '1', '0'}};
+    cout << solution_LeetCode221.maximalSquare(nums) << endl;
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -779,6 +789,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode213();
+    LeetCode221();
     return 0;
 }
