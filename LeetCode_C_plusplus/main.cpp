@@ -79,6 +79,7 @@
 #include "LeetCode198.h"
 #include "LeetCode213.h"
 #include "LeetCode221.h"
+#include "LeetCode264.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -767,6 +768,14 @@ void LeetCode221() {
     cout << solution_LeetCode221.maximalSquare(nums) << endl;
 }
 
+void LeetCode264() {
+    Solution_LeetCode264 solution_leetCode264;
+    vector<int> nums = {10};
+    for (auto num: nums) {
+        cout << solution_leetCode264.nthUglyNumber(num) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -789,6 +798,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode221();
+    LeetCode264();
     return 0;
 }
