@@ -80,6 +80,7 @@
 #include "LeetCode213.h"
 #include "LeetCode221.h"
 #include "LeetCode264.h"
+#include "LeetCode279.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -776,6 +777,14 @@ void LeetCode264() {
     }
 }
 
+void LeetCode279() {
+    Solution_LeetCode279 solution_leetCode279;
+    vector<int> nums = {12, 13, 1, 2, 4, 8};
+    for (auto num:nums) {
+        cout << solution_leetCode279.numSquares(num) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -798,6 +807,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode264();
+    LeetCode279();
     return 0;
 }
