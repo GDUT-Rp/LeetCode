@@ -81,6 +81,7 @@
 #include "LeetCode221.h"
 #include "LeetCode264.h"
 #include "LeetCode279.h"
+#include "LeetCode300.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -785,6 +786,16 @@ void LeetCode279() {
     }
 }
 
+void LeetCode300() {
+    Solution_LeetCode300 solution_leetCode300;
+    vector<vector<int>> nums = {{10, 9, 2, 5, 3, 7, 101, 18},
+                                {},
+                                {10, 9, 2, 5, 3, 4}};
+    for (auto num: nums) {
+        cout << solution_leetCode300.lengthOfLIS(num) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -807,6 +818,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode279();
+    LeetCode300();
     return 0;
 }
