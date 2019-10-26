@@ -790,7 +790,7 @@ void LeetCode300() {
     Solution_LeetCode300 solution_leetCode300;
     vector<vector<int>> nums = {{10, 9, 2, 5, 3, 7, 101, 18},
                                 {},
-                                {10, 9, 2, 5, 3, 4}};
+                                {10, 9, 2, 5, 3, 4},};
     for (auto num: nums) {
         cout << solution_leetCode300.lengthOfLIS(num) << endl;
     }

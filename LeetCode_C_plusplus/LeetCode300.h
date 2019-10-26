@@ -16,7 +16,7 @@ public:
     int lengthOfLIS(vector<int> &nums) {
         int len = nums.size();
         if (len == 0) return 0;
-        vector<int> dp(0, len);
+        vector<int> dp(len, 1);
         dp[0] = 1;
         int maxans = 1;
         for (int i = 1; i < len; ++i) {
