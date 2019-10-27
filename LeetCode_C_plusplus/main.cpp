@@ -82,6 +82,7 @@
 #include "LeetCode264.h"
 #include "LeetCode279.h"
 #include "LeetCode300.h"
+#include "LeetCode303.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -794,6 +795,10 @@ void LeetCode300() {
     for (auto num: nums) {
         cout << solution_leetCode300.lengthOfLIS(num) << endl;
     }
+}
+
+void LeetCode303() {
+
 }
 
 void LeetCode415() {
