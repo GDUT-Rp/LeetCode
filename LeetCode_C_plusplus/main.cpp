@@ -83,6 +83,8 @@
 #include "LeetCode279.h"
 #include "LeetCode300.h"
 #include "LeetCode303.h"
+#include "LeetCode304.h"
+#include "LeetCode312.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -801,6 +803,23 @@ void LeetCode303() {
 
 }
 
+void LeetCode304() {
+    vector<vector<int>> matrix = {{3, 0, 1, 4, 2},
+                                  {5, 6, 3, 2, 1},
+                                  {1, 2, 0, 1, 5},
+                                  {4, 1, 0, 1, 7},
+                                  {1, 0, 3, 0, 5}};
+    NumMatrix_LeetCode304 numMatrix_leetCode304(matrix);
+}
+
+void LeetCode312() {
+    Solution_LeetCode312 solution_leetCode312;
+    vector<vector<int>> nums = {{3,1,5,8}};
+    for (vector<int> num:nums){
+        cout << solution_leetCode312.maxCoins(num) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -823,6 +842,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode300();
+    LeetCode312();
     return 0;
 }
