@@ -85,6 +85,7 @@
 #include "LeetCode303.h"
 #include "LeetCode304.h"
 #include "LeetCode312.h"
+#include "LeetCode321.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -800,7 +801,9 @@ void LeetCode300() {
 }
 
 void LeetCode303() {
-
+    vector<int> nums = {3, 4, 5, 6};
+    NumArray numArray(nums);
+    cout << numArray.sumRange(2, 3) << endl;
 }
 
 void LeetCode304() {
@@ -814,9 +817,27 @@ void LeetCode304() {
 
 void LeetCode312() {
     Solution_LeetCode312 solution_leetCode312;
-    vector<vector<int>> nums = {{3,1,5,8}};
-    for (vector<int> num:nums){
+    vector<vector<int>> nums = {{3, 1, 5, 8}};
+    for (vector<int> num:nums) {
         cout << solution_leetCode312.maxCoins(num) << endl;
+    }
+}
+
+void LeetCode321() {
+    Solution_LeetCode321 solution_leetCode321;
+    vector<vector<int>> nums1 = {{3, 4, 6, 5},
+                                 {6, 7},
+                                 {3, 9}};
+    vector<vector<int>> nums2 = {{9, 1, 2, 5, 8, 3},
+                                 {6, 0, 4},
+                                 {8, 9}};
+    vector<int> k = {5, 5, 3};
+    for (int i = 0; i < nums1.size(); ++i) {
+        vector<int> ans = solution_leetCode321.maxNumber(nums1[i], nums2[i], k[i]);
+        for (int a : ans) {
+            cout << a << " ";
+        }
+        cout << endl;
     }
 }
 
@@ -842,6 +863,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode312();
+    LeetCode303();
     return 0;
 }
