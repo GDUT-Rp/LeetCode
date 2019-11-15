@@ -86,6 +86,7 @@
 #include "LeetCode304.h"
 #include "LeetCode312.h"
 #include "LeetCode321.h"
+#include "LeetCode322.h"
 #include "LeetCode415.h"
 #include "LeetCode416.h"
 
@@ -841,6 +842,16 @@ void LeetCode321() {
     }
 }
 
+void LeetCode322() {
+    Solution_LeetCode322 solution_leetCode322;
+    vector<vector<int>> nums = {{1, 2, 5},
+                                {2}};
+    vector<int> mount = {11, 3};
+    for (int i = 0; i < nums.size(); ++i) {
+        cout << solution_leetCode322.coinChange(nums[i], mount[i]) << endl;
+    }
+}
+
 void LeetCode415() {
     Solution_LeetCode415 solution_leetCode415;
     vector<string> nums1 = {"2", "123", "654987", "1", "19", "91"};
@@ -863,6 +874,6 @@ void LeetCode416() {
 
 int main() {
     cout << "HelloWorld!" << endl;
-    LeetCode303();
+    LeetCode322();
     return 0;
 }
