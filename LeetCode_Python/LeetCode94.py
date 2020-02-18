@@ -2,7 +2,8 @@
 # @File   : LeetCode94.py
 # @Author : Runpeng Zhang
 # @Date   : 2020/2/18
-# @Desc   : None
+# @Desc   : 进行二叉树的中序遍历，
+
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -59,6 +60,7 @@ class Solution:
             res.append(root.val)
             root = root.right
         return res
+
 
 test = Solution()
 treeNode = test.buildTree()
