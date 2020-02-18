@@ -58,6 +58,7 @@
 #include "LeetCode85.h"
 #include "LeetCode87.h"
 #include "LeetCode91.h"
+#include "LeetCode94.h"
 #include "LeetCode96.h"
 #include "LeetCode97.h"
 #include "LeetCode100.h"

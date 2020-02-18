@@ -13,7 +13,7 @@ using namespace std;
 
 class Solution_LeetCode322 {
 public:
-    int coinChange(vector<int>& coins, int amount) {
+    int coinChange(vector<int> &coins, int amount) {
         vector<int> dp(amount + 1, -1);
         dp[coins[0]] = 1;
         int len = coins.size();
@@ -23,12 +23,12 @@ public:
                     dp[i] = min(dp[i], dp[i - coins[j]] + 1);
             }
         }
+
         return dp[amount];
     }
 
 
 };
-
 
 
 #endif //LEETCODE_C_PLUSPLUS_LEETCODE322_H
