@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56b7fd8-ba4c-4a63-9492-bc2345e33cd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode94.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode94.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode98.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode98.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode322.h" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode322.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode_C_plusplus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode_C_plusplus/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode_Python/LeetCode94.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode94.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCode94.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCode94.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode94.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="57" column="30" lean-forward="true" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="168">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode98.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode98.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="15" selection-start-line="15" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -116,6 +126,7 @@
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode15.py" />
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode18.py" />
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode94.py" />
+        <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode98.py" />
       </list>
     </option>
   </component>
@@ -129,8 +140,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="565" />
-    <option name="width" value="1295" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1140" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -388,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552997373670</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Python版实现">
+      <created>1582009916906</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582009916906</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,13 +449,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python版实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode27.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -782,8 +794,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode94.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="57" column="30" lean-forward="true" selection-end-line="65" selection-end-column="31" />
+        <state relative-caret-position="168">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode98.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="15" selection-start-line="15" selection-end-line="36" />
         </state>
       </provider>
     </entry>

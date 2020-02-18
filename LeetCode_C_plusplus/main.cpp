@@ -61,6 +61,7 @@
 #include "LeetCode94.h"
 #include "LeetCode96.h"
 #include "LeetCode97.h"
+#include "LeetCode98.h"
 #include "LeetCode100.h"
 #include "LeetCode115.h"
 #include "LeetCode120.h"
@@ -93,6 +94,7 @@
 
 
 using namespace std;
+
 
 void LeetCode1() {
     Solution_LeetCode1 solution_leetCode1;
