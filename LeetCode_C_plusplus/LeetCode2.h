@@ -32,16 +32,16 @@ public:
         ListNode *result = new ListNode(0);
         ListNode *tmp = result;
         int sum = 0;
-        while(l1 || l2){
-            if(l1){
+        while (l1 || l2) {
+            if (l1) {
                 sum += l1->val;
                 l1 = l1->next;
             }
-            if(l2){
+            if (l2) {
                 sum += l2->val;
                 l2 = l2->next;
             }
-            tmp->next = new ListNode(sum%10);
+            tmp->next = new ListNode(sum % 10);
             sum /= 10;
             tmp = tmp->next;
         }
