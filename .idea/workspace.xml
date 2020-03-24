@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e56b7fd8-ba4c-4a63-9492-bc2345e33cd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode206.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode206.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode_C_plusplus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode2.h" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_C_plusplus/LeetCode2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Markdown/Leetcode2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Markdown/Leetcode2.md" afterDir="false" />
-    </list>
+    <list default="true" id="e56b7fd8-ba4c-4a63-9492-bc2345e33cd6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,8 +127,8 @@
       <file leaf-file-name="LeetCode206.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode206.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="559">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -506,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584890816591</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Python版实现">
+      <created>1585055974098</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585055974098</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -900,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode206.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="559">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
