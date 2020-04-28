@@ -31,7 +31,7 @@ public:
         ListNode *fast = head, *slow = head;
         while(n--)
             fast = fast->next;
-        if (fast == nullptr)
+        if (fast == nullptr)    // 删除头节点
             return head->next;
         while(fast->next != nullptr){
             fast = fast->next;
