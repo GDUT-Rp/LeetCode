@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56b7fd8-ba4c-4a63-9492-bc2345e33cd6" name="Default" comment="Python版实现">
+      <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCode19.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeetCode_Python/LeetCodeMianShi02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,15 +47,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeetCode101.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode101.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LeetCode102.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode102.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,11 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeetCodeMianShi02.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeetCodeMianShi02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCodeMianShi02.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="26" lean-forward="true" selection-end-line="21" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeetCode19.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode19.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -177,6 +178,7 @@
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode206.py" />
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCodeMianShi22.py" />
         <option value="$PROJECT_DIR$/LeetCode_Python/LeetCodeMianShi02.py" />
+        <option value="$PROJECT_DIR$/LeetCode_Python/LeetCode19.py" />
       </list>
     </option>
   </component>
@@ -189,7 +191,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="460" />
     <option name="width" value="1140" />
     <option name="height" value="1040" />
@@ -566,13 +568,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Python版实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2831">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -919,7 +914,14 @@
     <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCodeMianShi02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="26" lean-forward="true" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode_Python/LeetCode19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
