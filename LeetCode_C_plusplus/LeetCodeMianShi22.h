@@ -18,6 +18,7 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
 class Solution_LeetCodeMianShi22 {
 public:
     ListNode *getKthFromEnd(ListNode *head, int k) {

@@ -7,6 +7,7 @@
 #define LEETCODE_C_PLUSPLUS_LEETCODEMIANSHI02_H
 
 #include <iostream>
+
 using namespace std;
 
 /**
@@ -17,7 +18,7 @@ using namespace std;
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-class Solution {
+class Solution_LeeCodeMianShi02 {
 public:
     void deleteNode(ListNode* node) {
         ListNode *tmp = node->next;
