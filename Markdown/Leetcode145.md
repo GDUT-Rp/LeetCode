@@ -1,7 +1,7 @@
 # Leetcode145 二叉树的后序遍历
 
 来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+链接：https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
 
 
 
@@ -11,21 +11,21 @@
 
 ## 题目：
 
-给定一个二叉树，返回它的*前序* 遍历。
+给定一个二叉树，返回它的*后序* 遍历。
 
 
 
 **示例 1:**
 
 ```
-输入: [1,null,2,3]
+输入: [1,null,2,3]  
    1
     \
      2
     /
-   3
+   3 
 
-输出: [1,2,3]
+输出: [3,2,1]
 ```
 
 
@@ -79,22 +79,33 @@ public:
 #### Java
 
 ```java
-//前序遍历递归
-    public List<Integer> preorderTraversal_1(TreeNode root) {
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    //后序遍历递归
+    public List<Integer> postorderTraversal(TreeNode root) {
         LinkedList<Integer> ans = new LinkedList<>();
         if(root == null)
             return ans;
-        subPreorderTraversal(root, ans);
+        subPostorderTraversal(root, ans);
         return ans;
     }
-    private void subPreorderTraversal(TreeNode root, List<Integer> list){
+    private void subPostorderTraversal(TreeNode root, List<Integer> list){
         if(root == null){
             return;
         }
-        subPreorderTraversal(root.left, list);
-        subPreorderTraversal(root.right, list);
+        subPostorderTraversal(root.left, list);
+        subPostorderTraversal(root.right, list);
         list.add(root.val);
     }
+}
 ```
 
 
@@ -106,7 +117,7 @@ public:
 # @File   : LeetCode145.py
 # @Author : Runpeng Zhang
 # @Date   : 2020/2/19
-# @Desc   : 二叉树的前序遍历
+# @Desc   : 二叉树的后序遍历
 
 
 # Definition for a binary tree node.
@@ -151,7 +162,7 @@ class Solution:
 
 从根节点开始，每次迭代弹出当前栈顶元素，插入到第一位中，并将其孩子节点压入栈中，先压左孩子再压右孩子。
 
-##### 
+
 
 #### C++
 

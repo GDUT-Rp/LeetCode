@@ -2,7 +2,7 @@
 # @File   : LeetCode145.py
 # @Author : Runpeng Zhang
 # @Date   : 2020/2/19
-# @Desc   : 二叉树的前序遍历
+# @Desc   : 二叉树的后序遍历
 
 
 # Definition for a binary tree node.
