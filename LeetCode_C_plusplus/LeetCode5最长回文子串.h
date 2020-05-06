@@ -12,6 +12,7 @@
 class Solution_LeetCode5 {
 public:
     string longestPalindrome(string s) {
+        // 中心扩展法
         int length = s.length();
         if (length < 1)
             return "";

@@ -4,12 +4,12 @@
 #include <string>
 #include <set>
 
-#include "LeetCode1.h"
-#include "LeetCode2.h"
-#include "LeetCode3.h"
+#include "LeetCode1两数之和.h"
+#include "LeetCode2两数相加（链表）.h"
+#include "LeetCode3无重复字符的最长子串.h"
 #include "LeetCode4.h"
-#include "LeetCode5.h"
-#include "LeetCode6.h"
+#include "LeetCode5最长回文子串.h"
+#include "LeetCode6Z字形变换.h"
 #include "LeetCode7.h"
 #include "LeetCode8.h"
 #include "LeetCode9.h"
