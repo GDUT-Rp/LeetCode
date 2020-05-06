@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# @File   : LeetCode2.py
+# @File   : LeetCode2两数相加（链表）.py
 # @Author : Runpeng Zhang
 # @Date   : 2020/3/24
 # @Desc   : 链表两数相加
