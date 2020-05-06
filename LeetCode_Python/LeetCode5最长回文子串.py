@@ -10,23 +10,28 @@ def create_sample():
 class Solution:
     def longestPalindrome(self, s):
         """
+        中心扩展算法，时间复杂度 O(n^2),由于围绕中心来扩展回文会耗去 O(n)的时间
         :type s: str
         :rtype: str
         """
         length = len(s)
         if length < 1:
             return ""
-        start, end = 0, 0
+        start, end = 0, 0   # 记录最长回文串左索引和右索引
         for i in range(length):
             len1 = self.expandAroundCenter(s, i, i)
             len2 = self.expandAroundCenter(s, i, i + 1)
             len3 = max(len1, len2)
             if len3 > end - start:
-                start = i - (len3 - 1) // 2
-                end = i + len3 // 2
+                start = i - (len3 - 1) // 2     # 跟新最长回文串的左索引
+                end = i + len3 // 2             # 跟新最长回文串的右索引
         return s[start: end + 1]
 
     def expandAroundCenter(self, s, left, right):
+        """
+        中心扩展算法辅助函数，返回长度
+        :rtype: int 长度
+        """
         while left >= 0 and right < len(s) and s[left] == s[right]:
             left -= 1
             right += 1
