@@ -10,7 +10,7 @@
 #include "LeetCode4.h"
 #include "LeetCode5最长回文子串.h"
 #include "LeetCode6Z字形变换.h"
-#include "LeetCode7.h"
+#include "LeetCode7整数翻转.h"
 #include "LeetCode8.h"
 #include "LeetCode9.h"
 #include "LeetCode10.h"
