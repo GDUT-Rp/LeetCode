@@ -211,12 +211,18 @@ public int sumRegion(int row1, int col1, int row2, int col2) {
 
 ```python
 class NumMatrix:
-
     def __init__(self, matrix: List[List[int]]):
-        
+        self.dpSum = [[0] * (len(matrix[0]) + 1)for i in range(len(matrix))]
+        for row in range(len(matrix)):
+            for column in range(len(matrix[0])):
+                self.dpSum[row][column + 1] = self.dpSum[row][column] + matrix[row][column]
 
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
-        
+        total = 0
+        for row in range(row1, row2 + 1):
+            total += self.dpSum[row][col2 + 1]
+            total -= self.dpSum[row][col1]
+        return total
 
 
 # Your NumMatrix object will be instantiated and called as such:
